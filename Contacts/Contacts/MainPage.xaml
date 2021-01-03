@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contacts.MainPage">
+
+    <StackLayout Padding="20">
+        <Entry Placeholder="First Name"
+               x:Name="firstNameEntry"></Entry>
+        <Entry Placeholder="Last Name"
+               x:Name="lastNameEntry"></Entry>
+        <Entry Placeholder="Email"
+               x:Name="emailEntry"></Entry>
+        <Entry Placeholder="Phone Number"
+               x:Name="phoneEntry"></Entry>
+        <Entry Placeholder="Address"
+               x:Name="addressEntry"></Entry>
+        
+        <Button Text="Save"
+                x:Name="saveButton"
+                Clicked="saveButton_Clicked"/>
+
+        
+    </StackLayout>
+
+</ContentPage>
